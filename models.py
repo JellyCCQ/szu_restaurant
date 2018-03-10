@@ -1,5 +1,7 @@
 from admin import setting
 
+def fuck():
+    return chenweixinSB
 def getDishes(restaurant_id):
     connection = setting()
     cursor = connection.cursor()
@@ -82,5 +84,3 @@ def searchDishes(words):
 # print(getOrderForms(1))
 # print(getComments(1))
 # print(searchDishes("梅菜"))
-
-
